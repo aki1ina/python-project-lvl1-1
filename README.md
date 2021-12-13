@@ -9,4 +9,4 @@ brain-even https://asciinema.org/a/Tp6ss0eUlJ5WpY3U2iUlAF0ZS
 
 brain-calc https://asciinema.org/a/oXKDCC5AHHHTGtHwPOxTR4Ovr
 
-brain-gcd https://asciinema.org/a/5hSwdubA2b5m9ID9KBKwi3jzE
+brain-gcd <a href="https://asciinema.org/a/5hSwdubA2b5m9ID9KBKwi3jzE" target="_blank"><img src="https://asciinema.org/a/5hSwdubA2b5m9ID9KBKwi3jzE.svg" /></a>
