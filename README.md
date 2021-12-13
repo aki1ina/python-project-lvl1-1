@@ -5,6 +5,8 @@
 
 [![Python CI](https://github.com/SergeyKapinus/python-project-lvl1/actions/workflows/github-actions.yml/badge.svg)](https://github.com/SergeyKapinus/python-project-lvl1/actions/workflows/github-actions.yml)
 
-https://asciinema.org/a/Tp6ss0eUlJ5WpY3U2iUlAF0ZS
+brain-even https://asciinema.org/a/Tp6ss0eUlJ5WpY3U2iUlAF0ZS
 
-https://asciinema.org/a/oXKDCC5AHHHTGtHwPOxTR4Ovr
+brain-calc https://asciinema.org/a/oXKDCC5AHHHTGtHwPOxTR4Ovr
+
+brain-gcd https://asciinema.org/a/5hSwdubA2b5m9ID9KBKwi3jzE
