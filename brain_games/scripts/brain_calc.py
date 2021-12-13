@@ -1,9 +1,9 @@
 #!/usr/bin/env python
-from even_number import even
+from games import brain_calc
 
 
 def main():
-    even()
+    brain_calc.calculator()
 
 
 if __name__ == '__main__':
