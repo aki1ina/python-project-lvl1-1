@@ -26,7 +26,7 @@ def even():
             counter_answer += 1
         else:
             print("'yes' is wrong answer ;(. Correct answer was 'no'.")
-            print("Let's try again, {}".format(name))
+            print("Let's try again, {}!".format(name))
             break
     if counter_answer == 3:
         print('Congratulations, {}!'.format(name))

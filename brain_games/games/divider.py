@@ -23,8 +23,8 @@ def divider():
             i += 1
             counter_answer += 1
         else:
-            print("'{}'".format(answer), 'is wrong answer ;(. Correct answer was ' "'{}'".format(res), '.')
-            print("Let's try again, {}".format(name))
+            print("'{}'".format(answer), 'is wrong answer ;(. Correct answer was ' "'{}'.".format(res))
+            print("Let's try again, {}!".format(name))
             break
     if counter_answer == 3:
         print('Congratulations, {}!'.format(name))
