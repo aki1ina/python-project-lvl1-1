@@ -10,3 +10,5 @@ brain-even <a href="https://asciinema.org/a/Tp6ss0eUlJ5WpY3U2iUlAF0ZS" target="_
 brain-calc <a href="https://asciinema.org/a/oXKDCC5AHHHTGtHwPOxTR4Ovr" target="_blank"><img src="https://asciinema.org/a/oXKDCC5AHHHTGtHwPOxTR4Ovr.svg" /></a>
 
 brain-gcd <a href="https://asciinema.org/a/5hSwdubA2b5m9ID9KBKwi3jzE" target="_blank"><img src="https://asciinema.org/a/5hSwdubA2b5m9ID9KBKwi3jzE.svg" /></a>
+
+brain-progression <a href="https://asciinema.org/a/3zGmOgakSaCtqpSqyEjYqpsKG" target="_blank"><img src="https://asciinema.org/a/3zGmOgakSaCtqpSqyEjYqpsKG.svg" /></a>
