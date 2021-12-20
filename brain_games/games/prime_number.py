@@ -12,22 +12,22 @@ def prime():
     i = 1
     counter_answer = 0
     while i <= 3:
-        a = randrange(20)
-        print('Question:', a)
+        number = randrange(20)
+        print('Question:', str(number))
         answer = prompt.string('Your answer: ')
-        if isprime(a) is True and answer == "yes":
+        if isprime(number) is True and answer == "yes":
             print('Correct!')
             i += 1
             counter_answer += 1
-        elif isprime(a) is False and answer == "no":
+        elif isprime(number) is False and answer == "no":
             print('Correct!')
             i += 1
             counter_answer += 1
-        elif isprime(a) is True and answer == "no":
+        elif isprime(number) is True and answer == "no":
             print('"no" is wrong answer ;(. Correct answer was "yes". ')
             print("Let's try again, {}!".format(name))
             break
-        elif isprime(a) is False and answer == "yes":
+        elif isprime(number) is False and answer == "yes":
             print('"yes" is wrong answer ;(. Correct answer was "no". ')
             print("Let's try again, {}!".format(name))
             break

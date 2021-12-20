@@ -13,10 +13,10 @@ def divider():
     counter_answer = 0
     res = ''
     while i <= 3:
-        a = randint(0, 100)
-        b = randint(0, 100)
-        print('Question:', a, '', b)
-        res = math.gcd(a, b)
+        number1 = randint(0, 100)
+        number2 = randint(0, 100)
+        print('Question:', str(number1), str(number2))
+        res = math.gcd(number1, number2)
         answer = prompt.string('Your answer: ')
         if res == int(answer):
             print('Correct!')

@@ -13,7 +13,7 @@ def even():
     counter_answer = 0
     while i <= 3:
         number = randint(0, 100)
-        print('Question:', number)
+        print('Question:', str(number))
         module = number % 2
         answer = prompt.string('Your answer: ')
         if module == 0 and answer == 'yes':
