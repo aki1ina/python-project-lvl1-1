@@ -19,7 +19,7 @@ def item_search():
         index = randrange(len_progression)
         value = progression[index]
         progression[index] = '..'
-        print('Question: ', " ".join(map(str, progression)))
+        print('Question:', " ".join(map(str, progression)))
         answer = prompt.string('Your answer: ')
         if int(answer) == value:
             print('Correct!')
