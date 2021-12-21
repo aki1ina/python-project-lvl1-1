@@ -3,7 +3,7 @@ from random import randrange
 from sympy import isprime
 
 
-def prime():
+def prime():  # noqa: C901
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     if name:

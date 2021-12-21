@@ -2,7 +2,7 @@ import prompt
 from random import randint, choice
 
 
-def calculator():
+def calculator():  # noqa: C901
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     if name:
@@ -27,7 +27,7 @@ def calculator():
             i += 1
             counter_answer += 1
         else:
-            print("'{}'".format(answer), 'is wrong answer ;(. Correct answer was ' "'{}'.".format(solution))
+            print("'{}'".format(answer), 'is wrong answer ;(. Correct answer was ' "'{}'.".format(solution))  # noqa: E501
             print("Let's try again, {}!".format(name))
             break
     if counter_answer == 3:

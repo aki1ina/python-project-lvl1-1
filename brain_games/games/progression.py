@@ -19,14 +19,14 @@ def item_search():
         index = randrange(len_progression)
         value = progression[index]
         progression[index] = '..'
-        print('Question: ', str(progression))
+        print('Question: ', " ".join(map(str, progression)))
         answer = prompt.string('Your answer: ')
         if int(answer) == value:
             print('Correct!')
             i += 1
             counter_answer += 1
         else:
-            print("'{}'".format(answer), 'is wrong answer ;(. Correct answer was ' "'{}'.".format(value))
+            print("'{}'".format(answer), 'is wrong answer ;(. Correct answer was ' "'{}'.".format(value))  # noqa: E501
             print("Let's try again, {}!".format(name))
             break
     if counter_answer == 3:
