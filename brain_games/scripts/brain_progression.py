@@ -1,9 +1,18 @@
 #!/usr/bin/env python
-from brain_games.games.progression import item_search
+
+"""The scripts start the game 'Brain-progression'."""
+
+from brain_games.engine import engine
+from brain_games.games import progression
 
 
 def main():
-    item_search()
+    """
+    Program start.
+    Parameters are missing.
+    Returns: None
+    """
+    engine(progression)
 
 
 if __name__ == '__main__':
