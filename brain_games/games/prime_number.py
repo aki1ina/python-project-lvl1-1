@@ -18,4 +18,4 @@ def get_task_and_solution():
     task = randrange(20)
     correct_answer = 'yes' if isprime(task) else 'no'
 
-    return task, correct_answer
+    return str(task), correct_answer
