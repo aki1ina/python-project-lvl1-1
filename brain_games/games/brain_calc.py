@@ -1,34 +1,31 @@
-import prompt
+
+"""Functions of the game 'Brain-calc'."""
+
 from random import randint, choice
+from operator import add, sub, mul
+
+GAME_RULE = 'What is the result of the expression?'
+OPERATIONS = (
+    ('+', add),
+    ('-', sub),
+    ('*', mul),
+)
 
 
-def calculator():  # noqa: C901
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    if name:
-        print('Hello, {}!'.format(name))
-    print('What is the result of the expression?')
-    i = 1
-    counter_answer = 0
-    while i <= 3:
-        number1 = randint(0, 100)
-        number2 = randint(0, 100)
-        operator = choice(['-', '+', '*'])
-        print('Question:', str(number1), str(operator), str(number2))
-        if operator == '+':
-            solution = number1 + number2
-        elif operator == '-':
-            solution = number1 - number2
-        else:
-            solution = number1 * number2
-        answer = prompt.string('Your answer: ')
-        if solution == int(answer):
-            print('Correct!')
-            i += 1
-            counter_answer += 1
-        else:
-            print("'{}'".format(answer), 'is wrong answer ;(. Correct answer was ' "'{}'.".format(solution))  # noqa: E501
-            print("Let's try again, {}!".format(name))
-            break
-    if counter_answer == 3:
-        print('Congratulations, {}!'.format(name))
+def get_task_and_solution():
+    """
+    Get a mathematical expression (task) and correct answer.
+
+    Parameters are missing.
+
+    Returns:
+        tuple: str
+    """
+    number1 = randint(0, 10)
+    number2 = randint(0, 10)
+    random_operation = choice(OPERATIONS)
+
+    correct_answer = random_operation[1](number1, number2)
+    task = '{1} {0} {2}'.format(random_operation[0], number1, number2)
+
+    return task, str(correct_answer)
