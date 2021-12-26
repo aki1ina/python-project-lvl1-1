@@ -1,9 +1,9 @@
 """Function of the game 'Brain-game'"""
 
-from random import randrange
+from random import randint
 from sympy import isprime
 
-GAME_RULE = 'Answer "yes" if given number is prime, otherwise answer "no".'
+GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def get_task_and_solution():
@@ -15,7 +15,7 @@ def get_task_and_solution():
     Returns:
         tuple:(int, str)
     """
-    task = randrange(20)
+    task = randint(1, 20)
     correct_answer = 'yes' if isprime(task) else 'no'
 
-    return str(task), correct_answer
+    return task, correct_answer
