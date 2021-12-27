@@ -24,7 +24,7 @@ def engine(game):
 
         for _ in range(NUMBERS_OF_ROUNDS):
             task, correct_answer = game.get_task_and_solution()
-            print('Question: {0}'.format(task))
+            print('Question: {}'.format(task))
             answer_user = prompt.string('Your answer: ')
             if answer_user == correct_answer:
                 print('Correct!')
